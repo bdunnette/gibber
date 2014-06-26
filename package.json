@@ -1,0 +1,16 @@
+{
+  "name": "203k",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Brian Dunnette (brian@dunnette.us)",
+  "license": "MIT",
+  "dependencies": {
+    "level": "^0.18.0",
+    "markov": "0.0.7",
+    "twit": "^1.1.15"
+  }
+}
