@@ -21,7 +21,7 @@ function datestring () {
 
 setInterval(function() {
 T.get('statuses/home_timeline', function(err, data, response) {
-  console.log(data);
+  //console.log(data);
   var seed = '';
   for (s in data) {
     //console.log(data[s].text);
@@ -33,7 +33,7 @@ T.get('statuses/home_timeline', function(err, data, response) {
     console.log(message);
   });
 });
-}, 60000);
+}, 10000);
 
 function handleError(err) {
   console.error('response status:', err.statusCode);
